@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <script src="./assets/js/jquery-3.7.1.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body>
+    <header id="header">
+        <div id="header-navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="item-left col-lg-3 col-md-4 col-sm-12">
+                                <div id="item-has-qr" class="item-separate" >
+                                    <span>Cửa Hàng OMO</span>
+                                    <div class="header-qr">
+                                        <img src="assets/img/header-QR/qr-code.png" alt="QR code">
+                                        <div class="header-qr-apps">
+                                            <a href="">
+                                                <img src="assets/img/header-QR/gg-play.png" alt="">
+                                            </a>
+                                            <a href="">
+                                                <img src="assets/img/header-QR/app-store.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="item-has-connect" >
+                                    <span>Kết Nối</span>
+                                        <a href="">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                </div>
+                            
+                        </div>
+
+                    <div class="item-right col-lg-9 col-md-8 col-sm-12">
+                                <div id="item-has-notification">
+                                    <a href="">
+                                        <i class="fas fa-bell"></i>
+                                        <span>Thông báo</span>
+                                        <div class="header-notify">
+                                            <h3>Thông báo mới :</h3>
+                                            <ul>
+                                                <li>
+                                                    <a href="">
+                                                        <img src="./assets/img/Dienthoai/ip12.webp" alt="">
+                                                        <div>
+                                                            <div class="notify-name">asdasdasda</div>
+                                                            <div class="notify-decription">dit asdasdasdasdasdasd</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="notify-footer">
+                                                <a href="#">Xem tất cả</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div id="item-has-suport">
+                                    <a href="">
+                                        <i class="far fa-question-circle"></i>
+                                        <span>Trợ giúp</span>
+                                    </a>
+                                </div>
+                                <div id="item-has-account">
+                                    <a href="">
+                                        <i class="fa-regular fa-circle-user"></i>
+                                        <span>Vũ Mạnh Chiến</span>
+                                        <div class="account-options">
+                                            <ul>
+                                                <li>
+                                                    <a href="">
+                                                        Tài khoản của tôi
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        Đơn hàng
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        Đăng xuất
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="header-with-search">
+            <div class="container">
+                <div class="row">
+                    <div id="logo" class="col-lg-1 col-md-1 col-sm-1">
+                        <h1>
+                            <a href="#"><img src="./assets/img/header-QR/logo.svg" alt=""></a>
+                        </h1>
+                    </div>
+                    <div id="search-with-cart" class="col-lg-11 col-md-11 col-sm-11">
+                        <div id="search"> 
+                            <input type="text" placeholder="Nhập để tìm kiếm sản phẩm">
+                            <button>
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                        <div id="cart">
+                            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    
+    <div class="main-container">
+        <div class="home-page">
+            <!-- homePageheader -->
+            <div class="home-page__header">
+                <div class="home-page__header-slider">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./assets/img/slider/slider1.webp" class="d-block w-100 home-page__header-slider-img" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/img/slider/slider2.webp" class="d-block w-100 home-page__header-slider-img" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/img/slider/slider3.webp" class="d-block w-100 home-page__header-slider-img" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="container home-page__header-content">
+                    <div class="home-page__header-content-center">
+                        <div class="home-page__header-content-categories">
+                            <ul class="home-page__header-content-categories-items">
+                                <li class="home-page__header-content-categories-lish-item cursor"><i class="home-page__header-content-categories-icon fa-solid fa-laptop"></i><div>Laptop</div></li>
+                                <li class="home-page__header-content-categories-lish-item cursor"><i class="home-page__header-content-categories-icon fa-brands fa-apple"></i><div>Sản phẩm Apple</div></li>
+                                <li class="home-page__header-content-categories-lish-item cursor"><i class="home-page__header-content-categories-icon fa-solid fa-computer"></i><div>PC-Máy tính bàn</div></li>
+                                <li class="home-page__header-content-categories-lish-item cursor"><i class="home-page__header-content-categories-icon fa-solid fa-display"></i><div>Màn hình máy tính</div></li>
+                                <li class="home-page__header-content-categories-lish-item cursor"><i class="home-page__header-content-categories-icon fa-solid fa-gamepad"></i><div>Gaming Gear</div></li>
+                                <li class="home-page__header-content-categories-lish-item cursor"><i class="home-page__header-content-categories-icon fa-solid fa-mobile-button"></i><div>Điện thoại & Phụ kiện</div></li>
+                                <li class="home-page__header-content-categories-lish-item cursor"><i class="home-page__header-content-categories-icon fa-solid fa-headphones"></i><div>Thiết bị âm thanh</div></li>
+                                <li class="home-page__header-content-categories-lish-item cursor"><i class="home-page__header-content-categories-icon fa-solid fa-microchip"></i><div>linh kiện máy tính</div></li>
+                                <li class="home-page__header-content-categories-lish-item cursor"><i class="home-page__header-content-categories-icon fa-solid fa-print"></i><div>Thiết bị văn phòng</div></li>
+                            </ul>
+                        </div>
+    
+                        <div class="home-page__header-content-banner">
+                            <img class="zoom home-page__header-content-banner-img" src="https://lh3.googleusercontent.com/Byldzv3DplOggbZBi2rmvmDIK8RVakCYewiA_v8t0VKSUbwkTw4aE447TfXpfBXbQgQUTVnEcA9Eh_LfHLc11DR1KQqXxMrm=w300-rw" alt="">
+                            <img class="zoom home-page__header-content-banner-img" src="https://lh3.googleusercontent.com/Byldzv3DplOggbZBi2rmvmDIK8RVakCYewiA_v8t0VKSUbwkTw4aE447TfXpfBXbQgQUTVnEcA9Eh_LfHLc11DR1KQqXxMrm=w300-rw" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end homePageheader -->
+            <!-- homePageDealHot -->
+            <div class="home-page__deal-hot">
+                <div class="container background-while">
+                    <h3 class="home-page__deal-hot-title">Ưu Đãi Hot</h3>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-4 home-page__deal-hot-item"><img class="zoom home-page__deal-hot-img" src="https://lh3.googleusercontent.com/foQmL82vuQTcpNDdjJIHxsvLCHR-lvGK0V-iKTufWdHVte2KFrm6LNPgQt4CGZa-7o0_d-DuHa0j8hiqKzmy7pz_ooD5U3yA4Q=rw" alt=""> <div class="home-page__deal-hot-text">TẢI APP OMO</div></div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 home-page__deal-hot-item"><img class="zoom home-page__deal-hot-img" src="https://lh3.googleusercontent.com/Wco4P6vaj84Ne_Gw1zrq3ELv3Hiw2l3QNOHuosx9AWxJ8jT9cXAh51UoN-eGud1-35LdkeujbrY5aIzX8baccATjQMg-MDM=rw" alt=""> <div class="home-page__deal-hot-text">ĐỔI ĐIỂM NHẬN VOUCHER</div></div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 home-page__deal-hot-item"><img class="zoom home-page__deal-hot-img" src="https://lh3.googleusercontent.com/u3kZ97LyHRKCI4xh0kSuhl9QPy3cAQMuoLtEQfJFf7gWPpe1YWVYH3C_uNcCeN-v4bKRfYCyQoe46TQ4Kq3YZEuvEy9z_RI=rw" alt=""> <div class="home-page__deal-hot-text">LAPTOP ĐỘC QUYỀN</div></div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 home-page__deal-hot-item"><img class="zoom home-page__deal-hot-img" src="https://lh3.googleusercontent.com/I3zXa1Opu02z2BGoeAjN6lVxChklzxMNfIkAr5HGPEhuMPlcUupmQAjbw1odpR6M2BCuH7AoP5pk7Pic-mCd3mlNFmWa4ApB=rw" alt=""> <div class="home-page__deal-hot-text">ƯU ĐÃI HỌC SINH SINH VIÊN</div></div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 home-page__deal-hot-item"><img class="zoom home-page__deal-hot-img" src="https://lh3.googleusercontent.com/wxFuYfco9bKs5oPTprykKpH3nXKnqFh8oz3wOczSZOf8fzcT05wAPh3kZn2-fo56UYzJvW4OUQkdikQ1A2P3IQVL3YOzP2P-=rw" alt=""> <div class="home-page__deal-hot-text">SĂN VOUCHER</div></div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 home-page__deal-hot-item"><img class="zoom home-page__deal-hot-img" src="https://lh3.googleusercontent.com/QrJGJ0ohMceczNLQwCzGgvdhCzKpI-eWgBC6pJClkWufu80A1nBADVj2lsLSCfEmcAH9ZvwVRSAh8gmHyzlZn8MEc-FwUdM=rw" alt=""> <div class="home-page__deal-hot-text">ĐỒ GIA DỤNG</div></div>
+                    </div>
+                </div>
+            </div>
+            <!-- end homePageDealHot -->
+            <!-- homePageDealProduct -->
+            <div class="home-page__deal-product">
+                <div class="container home-page__deal-product-center background-blue-img">
+                    <div class="home-page__deal-product-navbar">
+                        <div class="home-page__deal-product-navbar-item"><h3 class="home-page__deal-product-navbar-title">LAPTOP GAMING</h3><p class="home-page__deal-product-description">Giảm đến 20%</p></div>
+                        <div class="home-page__deal-product-navbar-item"><h3 class="home-page__deal-product-navbar-title">LAPTOP AI</h3><p class="home-page__deal-product-description">Giảm đến 20%</p></div>
+                        <div class="home-page__deal-product-navbar-item"><h3 class="home-page__deal-product-navbar-title">LAPTOP SINH VIÊN</h3><p class="home-page__deal-product-description">Giảm đến 20%</p></div>
+                        <div class="home-page__deal-product-navbar-item"><h3 class="home-page__deal-product-navbar-title">LAPTOP MỎNG NHẸ</h3><p class="home-page__deal-product-description">Giảm đến 20%</p></div>
+                    </div>
+                    <div class="home-page__deal-product-content">
+                        <div class="home-page__deal-product-countdown">
+                                <div class="home-page__deal-product-time">01</div>
+                                <div class="home-page__deal-product-time">01</div>
+                                <div class="home-page__deal-product-time">10</div>
+                                <div class="home-page__deal-product-time">12</div>
+                        </div>
+                        <div class="home-page__deal-product-items row row-cols-lg-5 row-cols-md-5 row-cols-5">
+                            <div class="home-page__deal-product-item">
+                                <div class="home-page__deal-product-item-center">
+                                    <div class="home-page__deal-product-item-imgs">
+                                        <img class="zoom home-page__deal-product-item-img" src="./assets/img/ManHinh_deal/unnamed (1).webp" alt="">
+                                        <div class="home-page__deal-product-item-save"><div>Tiết kiệm</div><div>5.900.000 đ</div></div>
+                                    </div>
+                                    <h3 class="home-page__deal-product-item-name">HP</h3>
+                                    <h4 class="home-page__deal-product-item-description" title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)">title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)</h4>
+                                    <div class="home-page__deal-product-item-price">10.212.323 đ</div>
+                                    <div class="home-page__deal-product-item-old">
+                                        <div class="home-page__deal-product-item-oldprice">20.000.000 đ</div>
+                                        <div class="home-page__deal-product-item-percent">-30%</div>
+                                    </div>
+                                    <button class="btn home-page__deal-product-item-btn">Thêm vào giỏ</button>
+                                </div>
+                            </div>
+                            <div class="home-page__deal-product-item">
+                                <div class="home-page__deal-product-item-center">
+                                    <div class="home-page__deal-product-item-imgs">
+                                        <img class="zoom home-page__deal-product-item-img" src="./assets/img/ManHinh_deal/unnamed (1).webp" alt="">
+                                        <div class="home-page__deal-product-item-save"><div>Tiết kiệm</div><div>5.900.000 đ</div></div>
+                                    </div>
+                                    <h3 class="home-page__deal-product-item-name">HP</h3>
+                                    <h4 class="home-page__deal-product-item-description" title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)">title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)</h4>
+                                    <div class="home-page__deal-product-item-price">10.212.323 đ</div>
+                                    <div class="home-page__deal-product-item-old">
+                                        <div class="home-page__deal-product-item-oldprice">20.000.000 đ</div>
+                                        <div class="home-page__deal-product-item-percent">-30%</div>
+                                    </div>
+                                    <button class="btn home-page__deal-product-item-btn">Thêm vào giỏ</button>
+                                </div>
+                            </div>
+                            <div class="home-page__deal-product-item">
+                                <div class="home-page__deal-product-item-center">
+                                    <div class="home-page__deal-product-item-imgs">
+                                        <img class="zoom home-page__deal-product-item-img" src="./assets/img/ManHinh_deal/unnamed (1).webp" alt="">
+                                        <div class="home-page__deal-product-item-save"><div>Tiết kiệm</div><div>5.900.000 đ</div></div>
+                                    </div>
+                                    <h3 class="home-page__deal-product-item-name">HP</h3>
+                                    <h4 class="home-page__deal-product-item-description" title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)">title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)</h4>
+                                    <div class="home-page__deal-product-item-price">10.212.323 đ</div>
+                                    <div class="home-page__deal-product-item-old">
+                                        <div class="home-page__deal-product-item-oldprice">20.000.000 đ</div>
+                                        <div class="home-page__deal-product-item-percent">-30%</div>
+                                    </div>
+                                    <button class="btn home-page__deal-product-item-btn">Thêm vào giỏ</button>
+                                </div>
+                            </div>
+                            <div class="home-page__deal-product-item">
+                                <div class="home-page__deal-product-item-center">
+                                    <div class="home-page__deal-product-item-imgs">
+                                        <img class="zoom home-page__deal-product-item-img" src="./assets/img/ManHinh_deal/unnamed (1).webp" alt="">
+                                        <div class="home-page__deal-product-item-save"><div>Tiết kiệm</div><div>5.900.000 đ</div></div>
+                                    </div>
+                                    <h3 class="home-page__deal-product-item-name">HP</h3>
+                                    <h4 class="home-page__deal-product-item-description" title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)">title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)</h4>
+                                    <div class="home-page__deal-product-item-price">10.212.323 đ</div>
+                                    <div class="home-page__deal-product-item-old">
+                                        <div class="home-page__deal-product-item-oldprice">20.000.000 đ</div>
+                                        <div class="home-page__deal-product-item-percent">-30%</div>
+                                    </div>
+                                    <button class="btn home-page__deal-product-item-btn">Thêm vào giỏ</button>
+                                </div>
+                            </div>
+                            <div class="home-page__deal-product-item">
+                                <div class="home-page__deal-product-item-center">
+                                    <div class="home-page__deal-product-item-imgs">
+                                        <img class="zoom home-page__deal-product-item-img" src="./assets/img/ManHinh_deal/unnamed (1).webp" alt="">
+                                        <div class="home-page__deal-product-item-save"><div>Tiết kiệm</div><div>5.900.000 đ</div></div>
+                                    </div>
+                                    <h3 class="home-page__deal-product-item-name">HP</h3>
+                                    <h4 class="home-page__deal-product-item-description" title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)">title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)</h4>
+                                    <div class="home-page__deal-product-item-price">10.212.323 đ</div>
+                                    <div class="home-page__deal-product-item-old">
+                                        <div class="home-page__deal-product-item-oldprice">20.000.000 đ</div>
+                                        <div class="home-page__deal-product-item-percent">-30%</div>
+                                    </div>
+                                    <button class="btn home-page__deal-product-item-btn">Thêm vào giỏ</button>
+                                </div>
+                            </div>
+                            <div class="home-page__deal-product-item">
+                                <div class="home-page__deal-product-item-center">
+                                    <div class="home-page__deal-product-item-imgs">
+                                        <img class="zoom home-page__deal-product-item-img" src="./assets/img/ManHinh_deal/unnamed (1).webp" alt="">
+                                        <div class="home-page__deal-product-item-save"><div>Tiết kiệm</div><div>5.900.000 đ</div></div>
+                                    </div>
+                                    <h3 class="home-page__deal-product-item-name">HP</h3>
+                                    <h4 class="home-page__deal-product-item-description" title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)">title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)</h4>
+                                    <div class="home-page__deal-product-item-price">10.212.323 đ</div>
+                                    <div class="home-page__deal-product-item-old">
+                                        <div class="home-page__deal-product-item-oldprice">20.000.000 đ</div>
+                                        <div class="home-page__deal-product-item-percent">-30%</div>
+                                    </div>
+                                    <button class="btn home-page__deal-product-item-btn">Thêm vào giỏ</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <!-- end homePageDealProduct -->
+             <!-- homePageDealProduct -->
+            <div class="home-page__deal-product">
+                <div class="container home-page__deal-product-center background-black-img">
+                    <div class="home-page__deal-product-navbar">
+                        <div class="home-page__deal-product-navbar-item"><h3 class="home-page__deal-product-navbar-title">LAPTOP GAMING</h3><p class="home-page__deal-product-description">Giảm đến 20%</p></div>
+                        <div class="home-page__deal-product-navbar-item"><h3 class="home-page__deal-product-navbar-title">LAPTOP AI</h3><p class="home-page__deal-product-description">Giảm đến 20%</p></div>
+                        <div class="home-page__deal-product-navbar-item"><h3 class="home-page__deal-product-navbar-title">LAPTOP SINH VIÊN</h3><p class="home-page__deal-product-description">Giảm đến 20%</p></div>
+                        <div class="home-page__deal-product-navbar-item"><h3 class="home-page__deal-product-navbar-title">LAPTOP MỎNG NHẸ</h3><p class="home-page__deal-product-description">Giảm đến 20%</p></div>
+                    </div>
+                    <div class="home-page__deal-product-content">
+                        <div class="home-page__deal-product-countdown">
+                                <div class="home-page__deal-product-time">01</div>
+                                <div class="home-page__deal-product-time">01</div>
+                                <div class="home-page__deal-product-time">10</div>
+                                <div class="home-page__deal-product-time">12</div>
+                        </div>
+                        <div class="home-page__deal-product-items row row-cols-lg-5 row-cols-md-5 row-cols-5">
+                            <div class="home-page__deal-product-item">
+                                <div class="home-page__deal-product-item-center">
+                                    <div class="home-page__deal-product-item-imgs">
+                                        <img class="zoom home-page__deal-product-item-img" src="./assets/img/ManHinh_deal/unnamed (1).webp" alt="">
+                                        <div class="home-page__deal-product-item-save"><div>Tiết kiệm</div><div>5.900.000 đ</div></div>
+                                    </div>
+                                    <h3 class="home-page__deal-product-item-name">HP</h3>
+                                    <h4 class="home-page__deal-product-item-description" title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)">title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)</h4>
+                                    <div class="home-page__deal-product-item-price">10.212.323 đ</div>
+                                    <div class="home-page__deal-product-item-old">
+                                        <div class="home-page__deal-product-item-oldprice">20.000.000 đ</div>
+                                        <div class="home-page__deal-product-item-percent">-30%</div>
+                                    </div>
+                                    <button class="btn home-page__deal-product-item-btn">Thêm vào giỏ</button>
+                                </div>
+                            </div>
+                            <div class="home-page__deal-product-item">
+                                <div class="home-page__deal-product-item-center">
+                                    <div class="home-page__deal-product-item-imgs">
+                                        <img class="zoom home-page__deal-product-item-img" src="./assets/img/ManHinh_deal/unnamed (1).webp" alt="">
+                                        <div class="home-page__deal-product-item-save"><div>Tiết kiệm</div><div>5.900.000 đ</div></div>
+                                    </div>
+                                    <h3 class="home-page__deal-product-item-name">HP</h3>
+                                    <h4 class="home-page__deal-product-item-description" title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)">title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)</h4>
+                                    <div class="home-page__deal-product-item-price">10.212.323 đ</div>
+                                    <div class="home-page__deal-product-item-old">
+                                        <div class="home-page__deal-product-item-oldprice">20.000.000 đ</div>
+                                        <div class="home-page__deal-product-item-percent">-30%</div>
+                                    </div>
+                                    <button class="btn home-page__deal-product-item-btn">Thêm vào giỏ</button>
+                                </div>
+                            </div>
+                            <div class="home-page__deal-product-item">
+                                <div class="home-page__deal-product-item-center">
+                                    <div class="home-page__deal-product-item-imgs">
+                                        <img class="zoom home-page__deal-product-item-img" src="./assets/img/ManHinh_deal/unnamed (1).webp" alt="">
+                                        <div class="home-page__deal-product-item-save"><div>Tiết kiệm</div><div>5.900.000 đ</div></div>
+                                    </div>
+                                    <h3 class="home-page__deal-product-item-name">HP</h3>
+                                    <h4 class="home-page__deal-product-item-description" title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)">title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)</h4>
+                                    <div class="home-page__deal-product-item-price">10.212.323 đ</div>
+                                    <div class="home-page__deal-product-item-old">
+                                        <div class="home-page__deal-product-item-oldprice">20.000.000 đ</div>
+                                        <div class="home-page__deal-product-item-percent">-30%</div>
+                                    </div>
+                                    <button class="btn home-page__deal-product-item-btn">Thêm vào giỏ</button>
+                                </div>
+                            </div>
+                            <div class="home-page__deal-product-item">
+                                <div class="home-page__deal-product-item-center">
+                                    <div class="home-page__deal-product-item-imgs">
+                                        <img class="zoom home-page__deal-product-item-img" src="./assets/img/ManHinh_deal/unnamed (1).webp" alt="">
+                                        <div class="home-page__deal-product-item-save"><div>Tiết kiệm</div><div>5.900.000 đ</div></div>
+                                    </div>
+                                    <h3 class="home-page__deal-product-item-name">HP</h3>
+                                    <h4 class="home-page__deal-product-item-description" title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)">title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)</h4>
+                                    <div class="home-page__deal-product-item-price">10.212.323 đ</div>
+                                    <div class="home-page__deal-product-item-old">
+                                        <div class="home-page__deal-product-item-oldprice">20.000.000 đ</div>
+                                        <div class="home-page__deal-product-item-percent">-30%</div>
+                                    </div>
+                                    <button class="btn home-page__deal-product-item-btn">Thêm vào giỏ</button>
+                                </div>
+                            </div>
+                            <div class="home-page__deal-product-item">
+                                <div class="home-page__deal-product-item-center">
+                                    <div class="home-page__deal-product-item-imgs">
+                                        <img class="zoom home-page__deal-product-item-img" src="./assets/img/ManHinh_deal/unnamed (1).webp" alt="">
+                                        <div class="home-page__deal-product-item-save"><div>Tiết kiệm</div><div>5.900.000 đ</div></div>
+                                    </div>
+                                    <h3 class="home-page__deal-product-item-name">HP</h3>
+                                    <h4 class="home-page__deal-product-item-description" title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)">title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)</h4>
+                                    <div class="home-page__deal-product-item-price">10.212.323 đ</div>
+                                    <div class="home-page__deal-product-item-old">
+                                        <div class="home-page__deal-product-item-oldprice">20.000.000 đ</div>
+                                        <div class="home-page__deal-product-item-percent">-30%</div>
+                                    </div>
+                                    <button class="btn home-page__deal-product-item-btn">Thêm vào giỏ</button>
+                                </div>
+                            </div>
+                            <div class="home-page__deal-product-item">
+                                <div class="home-page__deal-product-item-center">
+                                    <div class="home-page__deal-product-item-imgs">
+                                        <img class="zoom home-page__deal-product-item-img" src="./assets/img/ManHinh_deal/unnamed (1).webp" alt="">
+                                        <div class="home-page__deal-product-item-save"><div>Tiết kiệm</div><div>5.900.000 đ</div></div>
+                                    </div>
+                                    <h3 class="home-page__deal-product-item-name">HP</h3>
+                                    <h4 class="home-page__deal-product-item-description" title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)">title="Laptop AI HP Victus 16-s0078AX - 8C5N7PA (Ryzen 5 7640HS/RAM 16GB/GeForce RTX 3050/512GB SSD/Windows 11)</h4>
+                                    <div class="home-page__deal-product-item-price">10.212.323 đ</div>
+                                    <div class="home-page__deal-product-item-old">
+                                        <div class="home-page__deal-product-item-oldprice">20.000.000 đ</div>
+                                        <div class="home-page__deal-product-item-percent">-30%</div>
+                                    </div>
+                                    <button class="btn home-page__deal-product-item-btn">Thêm vào giỏ</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <!-- end homePageDealProduct -->
+            <!-- homePagepage__featuredCategories -->
+            <div class="home-page__featured-categories"></div>
+            <!-- end homePagepage__featuredCategories -->
+            <!-- homePagecategories -->
+            <div class="home-page__categories"></div>
+            <!-- end homePagecategories -->
+            <!-- homePageBestSaler -->
+            <div class="home-page__best-sale"></div>
+            <!-- end homePageBestSaler -->
+            <!-- homePageForYou -->
+            <div class="home-page__for-you"></div>
+            <!-- end homePageForYou -->
+             <!-- homePageBestSearch -->
+            <div class="home-page__best-search"></div>
+            <!-- end homePageBestSearch -->
+        </div>
+    </div>
+
+    <footer id="footer">
+                <div id="footer-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer-suport col-lg-3 col-md-6 col-sm-6">
+                                <h4>Hỗ Trợ Khách Hàng</h4>
+                                <ul>
+                                    <li><a href="" >Thẻ ưu đãi</a></li>
+                                    <li><a href="" >Hướng dẫn mua online</a></li>
+                                    <li><a href="" >Chính sách trả góp</a></li>
+                                    <li><a href="" >Dịch vụ sửa chữa</a></li>
+                                    <li><a href="" >Ưu đãi dành cho doang nghiệp</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-policy col-lg-3 col-md-6 col-sm-6">
+                                <h4>Chính Sách Mua Hàng</h4>
+                                <ul>
+                                    <li><a href="" >Điều kiện giao dịch chung</a></li>
+                                    <li><a href="" >Chính sách bảo bành</a></li>
+                                    <li><a href="" >Chính sách đổi trả</a></li>
+                                    <li><a href="" >Chính sách thanh toán</a></li>
+                                    <li><a href="" >Giao hàng và lắp đặt tại nhà</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-community col-lg-3 col-md-6 col-sm-6">
+                                <h4>Cộng đồng</h4>
+                                <ul>
+                                    <li><a href="" >Gọi mua hàng (Miễn phí): 19001001</a></li>
+                                    <li><a href="" >Gọi chăm sóc khách hàng : 19001002</a></li>
+                                    <li><a href="" ><i class="fa-brands fa-facebook"></i></i> Facebook: CTA</a></li>
+                                    <li><a href="" ><i class="fa-brands fa-youtube"></i> Youtube: CTA_Store</a></li>
+                                    <li><a href="" ><i class="fa-brands fa-instagram"></i> IG: CTA_IG</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-contact col-lg-3 col-md-6 col-sm-6">
+                                <h4>Email liên hệ</h4>
+                                <ul>
+                                    <li><a href="" >Hỗ trợ khách hàng: vmc@gmail.com</a></li>
+                                    <li><a href="" >Liên hệ báo giá: 0969696969</a></li>
+                                    <li><a href="" >Hợp tác phát triển: CTA@gmail.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="footer-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="footer-payment col-lg-4 col-md-12 col-sm-12">
+                                    <h4>Phương thức thanh toán</h4>
+                                        <div>
+                                            <i class="fa-solid fa-qrcode"></i> <span>QR Code</span>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-money-bill"></i> <span>Tiền mặt</span>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-money-bill-transfer"></i> <span>Trả góp</span>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-piggy-bank"></i> <span>Internet banking</span>
+                                        </div>
+                                </div>
+                                <div class="footer-payment-with-img col-lg-8 col-md-12 col-sm-12">
+                                    <h4>Phương thức thanh toán</h4>
+                                        <img src="assets/img/footer/vnpay_banks.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer-company">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer-name-company col-lg-4 col-md-4 col-sm-12">
+                                <h4>CÔNG TY CỔ PHẦN THƯƠNG MẠI - DỊCH VỤ CTA</h4>
+                                <div class="footer__nav-subnav"><i class="fa-regular fa-copyright"></i> Giấy chứng nhận đăng ký doanh nghiệp:</div>
+                                <div class="footer__nav-subnav">0304998358 do Sở KH-ĐT TP.HCM cấp lần đầu ngày 30 tháng 05 năm 2007</div>
+                            </div>
+                            <div class="footer-address col-lg-5 col-md-5 col-sm-12">
+                                <h4>Địa chỉ trụ sở chính</h4>
+                                <div class="footer__nav-subnav">Tầng 5, Số 117-119-121 Nguyễn Du, Phường Bến Thành, Quận 1, Thành Phố Hồ Chí Minh</div>
+                                <div>Địa chỉ văn phòng điều hành</div>
+                                <div class="footer__nav-subnav">Tầng 6, Số 1 Phố Thái Hà, Phường Trung Liệt, Quận Đống Đa, Hà Nội</div>
+                            </div>
+                            <div class="footer-img col-lg-3 col-md-3 col-sm-12">
+                                <div><img src="assets/img/footer/da-dang-ky.png" alt=""></div>
+                                <div><img src="assets/img/footer/dmca-badge-w100-2x1-02.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+    </footer>
+</body>
+</html>

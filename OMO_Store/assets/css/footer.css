@@ -1,0 +1,46 @@
+#footer{
+    border-top: 2px solid var(--primary-color);
+    padding-top: 20px;
+}
+
+#footer h4{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#footer-top ul{
+    padding: 0;
+}
+
+#footer-top li,
+#footer-top a
+{
+    list-style: none;
+    color: var(--text-color);
+}
+
+#footer-top a:hover{
+    color: var(--primary-color);
+}
+
+#footer-bottom{
+    padding-bottom: 10px;
+}
+
+#footer-bottom img{
+    max-width: 100%;
+}
+
+#footer-company{
+    background-color: rgb(233, 237, 242);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-img{
+    text-align: right;
+}
+
+.footer-img img{
+    max-width: 120px;
+}

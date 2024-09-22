@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <script src="./assets/js/jquery-3.7.1.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/signin.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header id="header">
+        <div id="header-navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="item-left col-lg-3 col-md-4 col-sm-12">
+                                <div id="item-has-qr" class="item-separate" >
+                                    <span>Cửa Hàng OMO</span>
+                                    <div class="header-qr">
+                                        <img src="assets/img/header-QR/qr-code.png" alt="QR code">
+                                        <div class="header-qr-apps">
+                                            <a href="">
+                                                <img src="assets/img/header-QR/gg-play.png" alt="">
+                                            </a>
+                                            <a href="">
+                                                <img src="assets/img/header-QR/app-store.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="item-has-connect" >
+                                    <span>Kết Nối</span>
+                                        <a href="">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                </div>
+                            
+                        </div>
+
+                    <div class="item-right col-lg-9 col-md-8 col-sm-12">
+                                <div id="item-has-notification">
+                                    <a href="">
+                                        <i class="fas fa-bell"></i>
+                                        <span>Thông báo</span>
+                                        <div class="header-notify">
+                                            <h3>Thông báo mới :</h3>
+                                            <ul>
+                                                <li>
+                                                    <a href="">
+                                                        <img src="./assets/img/Dienthoai/ip12.webp" alt="">
+                                                        <div>
+                                                            <div class="notify-name">asdasdasda</div>
+                                                            <div class="notify-decription">dit asdasdasdasdasdasd</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="notify-footer">
+                                                <a href="#">Xem tất cả</a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div id="item-has-suport">
+                                    <a href="">
+                                        <i class="far fa-question-circle"></i>
+                                        <span>Trợ giúp</span>
+                                    </a>
+                                </div>
+                                <div id="item-has-account">
+                                    <a href="">
+                                        <i class="fa-regular fa-circle-user"></i>
+                                        <span>Vũ Mạnh Chiến</span>
+                                        <div class="account-options">
+                                            <ul>
+                                                <li>
+                                                    <a href="">
+                                                        Tài khoản của tôi
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        Đơn hàng
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        Đăng xuất
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="header-with-search">
+            <div class="container">
+                <div class="row">
+                    <div id="logo" class="col-lg-1 col-md-1 col-sm-1">
+                        <h1>
+                            <a href="#"><img src="./assets/img/header-QR/logo.svg" alt=""></a>
+                        </h1>
+                    </div>
+                    <div id="search-with-cart" class="col-lg-11 col-md-11 col-sm-11">
+                        <div id="search"> 
+                            <input type="text" placeholder="Nhập để tìm kiếm sản phẩm">
+                            <button>
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                        <div id="cart">
+                            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- signin -->
+    <div class="signin">
+        <div class="container">
+            <div class="row">
+                <div class="signin__content col-lg-12 col-md-12 col-sm-12">
+                    <div class="signin__content-method">
+                        <h3 class="signin__content-method-title">Chào mừng bạn đến với OMO.vn | Laptop, PC, Màn hình, điện thoại, linh kiện Chính Hãng!</h3>
+                        <button class="btn signin__content-method-btn--red"><i class="signin__content-method-icon fa-solid fa-envelope"></i> <span class="signin__content-method-text">Tiếp tục với Email</span></button>
+                        <button class="btn signin__content-method-btn--blue"><i class="signin__content-method-icon fa-brands fa-facebook"></i><span class="signin__content-method-text">Tiếp tục với Facebook</span></button>
+                        <h4 class="signin__content-method-instruct">Hoặc</h4>
+                        <button id="sendBtn" class="btn signin__content-method-btn--defaul"><i class="signin__content-method-icon fa-solid fa-phone"></i><span class="signin__content-method-text">Tiếp tục số điện thoại</span></button>
+                        <p id="note" class="signin__content-method-instruct">Sử dụng số điện thoại để Đăng nhập hoặc Đăng ký tài khoản của bạn</p>
+                        <input id="input_phonenumber" class="signin__content-method-input" type="text" placeholder="Nhập vào số điện thoại">
+                        <button class="btn-box">Gửi</button>
+                    </div>
+                    <div class="signin__content-provision">
+                        <p class="signin__content-provision-text">i. Đã đọc và đồng ý với Điều Kiện Giao Dịch Chung và Chính Sách Bảo Mật của Phong Vũ, bao gồm việc cho phép Phong Vũ được thu thập, xử lý dữ liệu cá nhân theo chính sách bảo mật này và theo quy định pháp luật.</p>
+                        <p class="signin__content-provision-text">ii. Các thông tin mà tôi cung cấp và đồng ý cho Phong Vũ xử lý trong quá trình thiết lập mối quan hệ, giao dịch giữa tôi và Phong Vũ là hợp pháp, chính xác, đầy đủ, hợp lệ và đã được sự đồng ý của Bên thứ ba (nếu có cung cấp thông tin của bên thứ ba)</p>
+                        <div class="signin__content-provision-checkbox">
+                            <input type="checkbox" class="signin__content-provision-checkbox-input">
+                            <span>: Tôi đồng ý và chấp nhận điều khoản</span>
+                        </div>
+                        <div class="signin__content-provision-notify">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            <span>Vui lòng xác nhận thông tin điều khoản sử dụng, chính sách bảo mật và chính sách thành viên</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end signin -->
+     <!-- footer -->
+    <footer id="footer">
+        <div id="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-suport col-lg-3 col-md-6 col-sm-6">
+                        <h4>Hỗ Trợ Khách Hàng</h4>
+                        <ul>
+                            <li><a href="" >Thẻ ưu đãi</a></li>
+                            <li><a href="" >Hướng dẫn mua online</a></li>
+                            <li><a href="" >Chính sách trả góp</a></li>
+                            <li><a href="" >Dịch vụ sửa chữa</a></li>
+                            <li><a href="" >Ưu đãi dành cho doang nghiệp</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-policy col-lg-3 col-md-6 col-sm-6">
+                        <h4>Chính Sách Mua Hàng</h4>
+                        <ul>
+                            <li><a href="" >Điều kiện giao dịch chung</a></li>
+                            <li><a href="" >Chính sách bảo bành</a></li>
+                            <li><a href="" >Chính sách đổi trả</a></li>
+                            <li><a href="" >Chính sách thanh toán</a></li>
+                            <li><a href="" >Giao hàng và lắp đặt tại nhà</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-community col-lg-3 col-md-6 col-sm-6">
+                        <h4>Cộng đồng</h4>
+                        <ul>
+                            <li><a href="" >Gọi mua hàng (Miễn phí): 19001001</a></li>
+                            <li><a href="" >Gọi chăm sóc khách hàng : 19001002</a></li>
+                            <li><a href="" ><i class="fa-brands fa-facebook"></i></i> Facebook: CTA</a></li>
+                            <li><a href="" ><i class="fa-brands fa-youtube"></i> Youtube: CTA_Store</a></li>
+                            <li><a href="" ><i class="fa-brands fa-instagram"></i> IG: CTA_IG</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact col-lg-3 col-md-6 col-sm-6">
+                        <h4>Email liên hệ</h4>
+                        <ul>
+                            <li><a href="" >Hỗ trợ khách hàng: vmc@gmail.com</a></li>
+                            <li><a href="" >Liên hệ báo giá: 0969696969</a></li>
+                            <li><a href="" >Hợp tác phát triển: CTA@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-payment col-lg-4 col-md-12 col-sm-12">
+                            <h4>Phương thức thanh toán</h4>
+                                <div>
+                                    <i class="fa-solid fa-qrcode"></i> <span>QR Code</span>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-money-bill"></i> <span>Tiền mặt</span>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-money-bill-transfer"></i> <span>Trả góp</span>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-piggy-bank"></i> <span>Internet banking</span>
+                                </div>
+                        </div>
+                        <div class="footer-payment-with-img col-lg-8 col-md-12 col-sm-12">
+                            <h4>Phương thức thanh toán</h4>
+                                <img src="assets/img/footer/vnpay_banks.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-company">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-name-company col-lg-4 col-md-4 col-sm-12">
+                        <h4>CÔNG TY CỔ PHẦN THƯƠNG MẠI - DỊCH VỤ CTA</h4>
+                        <div class="footer__nav-subnav"><i class="fa-regular fa-copyright"></i> Giấy chứng nhận đăng ký doanh nghiệp:</div>
+                        <div class="footer__nav-subnav">0304998358 do Sở KH-ĐT TP.HCM cấp lần đầu ngày 30 tháng 05 năm 2007</div>
+                    </div>
+                    <div class="footer-address col-lg-5 col-md-5 col-sm-12">
+                        <h4>Địa chỉ trụ sở chính</h4>
+                        <div class="footer__nav-subnav">Tầng 5, Số 117-119-121 Nguyễn Du, Phường Bến Thành, Quận 1, Thành Phố Hồ Chí Minh</div>
+                        <div>Địa chỉ văn phòng điều hành</div>
+                        <div class="footer__nav-subnav">Tầng 6, Số 1 Phố Thái Hà, Phường Trung Liệt, Quận Đống Đa, Hà Nội</div>
+                    </div>
+                    <div class="footer-img col-lg-3 col-md-3 col-sm-12">
+                        <div><img src="assets/img/footer/da-dang-ky.png" alt=""></div>
+                        <div><img src="assets/img/footer/dmca-badge-w100-2x1-02.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script>
+        const note = document.getElementById('note');
+        const inputPhoneNumber = document.getElementById('input_phonenumber');
+        const sendBtn = document.getElementById('sendBtn');
+
+        sendBtn.addEventListener('click', ()=>{
+            note.style.display = 'block';
+            inputPhoneNumber.style.display = 'block';
+        })
+    </script>
+
+    <script>
+        const checkbox = document.getElementsByClassName('signin__content-provision-checkbox-input')[0]; // Lấy checkbox đầu tiên
+        const thongBao = document.getElementsByClassName('signin__content-provision-notify')[0]; // Lấy thông báo đầu tiên
+
+        // Sự kiện khi người dùng thay đổi trạng thái của checkbox
+        checkbox.addEventListener('change', () => {
+            if (checkbox.checked) {
+                thongBao.style.display = 'none'; // Ẩn thông báo nếu checkbox được chọn
+            } else {
+                thongBao.style.display = 'block'; // Hiển thị thông báo nếu checkbox không được chọn
+            }
+        });
+    </script>
+
+
+    
+</body>
+</html>
